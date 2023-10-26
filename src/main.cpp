@@ -7,11 +7,13 @@ void setup(){
 
 
 void loop(){
-  //Serial.println(touchRead(4));
-  if(touchRead(4) < 60){
+  Serial.println(touchRead(4));
+  delay(100);
+  /*if(touchRead(4) < 60){
     Serial.println('1');
   }else{
     Serial.println('0');
   }
   delay(100);
+  */
 }
