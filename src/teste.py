@@ -16,6 +16,9 @@ mixer.music.load(sons[randint(0,1)])
 #nao esta funcionando a parte do random pois está fora do while. Ele escolhe e seleciona só uma vez o som
 #tem que rodar isso dentro do loop para escolher continuamente. tentei rapidamente mas n foi
 
+#se n der, carrega todas as musicas separadamente e faz um random numerico, a depender do numero 
+#coloca num switch case pra rodar tal musica
+
 # Setting the volume 
 mixer.music.set_volume(1) 
 
